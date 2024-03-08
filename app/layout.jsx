@@ -1,7 +1,9 @@
 import '@/assets/styles/globals.css';
 
 export const metadata = {
-    title: 'Property Pulse'
+    title: 'Property Pulse | Find your dream rental property',
+    description: 'Find your dream rental property',
+    keywords: 'rental, find rentals, find properties'
 }
 
 const MainLayout = ({ children }) => {
