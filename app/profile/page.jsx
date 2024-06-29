@@ -66,7 +66,6 @@ const ProfilePage = () => {
         console.log(error);
         toast.error('Failed to delete the property')
       }
-
     };
      
     
