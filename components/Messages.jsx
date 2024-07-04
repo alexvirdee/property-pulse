@@ -42,7 +42,7 @@ const Messages = () => {
                 <p>You have no messages</p>
             ) : (
                 messages.map((message) => (
-                    <Message key={messages._id} message={message} />
+                    <Message key={message._id} message={message} />
                 ))
             ) }
         </div>
